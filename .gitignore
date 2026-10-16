@@ -1,0 +1,26 @@
+# Local data files (download separately; do not commit by default)
+data/*
+!data/README.md
+*.csv
+*.zip
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+credentials/
+service-account*.json
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+coverage/
